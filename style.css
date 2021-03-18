@@ -60,19 +60,63 @@ body {
   background-color: lavender;
 }
 
+header {
+  background-color: #67AECA;
+  background-image: linear-gradient(to bottom right, #67AECA, #5F0F4E);
+  color: white;
+  height: 200px;
+  line-height: 4;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Fjalla One';
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Fjalla One';
+  font-size: 35px;
+  font-weight: 500;
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container {
+  line-height: 1.5;
+  text-align: center;
+}
+
 .color-container{
   border: solid 1px;
+  display: inline-block;
+  margin: 20px auto;
+  text-align: center;
+  width: 100%;
 }
 
 .color-panel {
   border: solid 1px;
+  display: inline-block;
+  margin: 20px auto;
+  min-height: 100px;
+  text-align: center;
+  width: 45%;
 }
 
 .color-label{
+  color: white;
   font-family: 'Roboto';
+  font-size: 20px;
 }
 
 .color-hex{
+  color: white;
   font-family: 'Roboto';
 }
 
